@@ -1,0 +1,361 @@
+@font-face {
+    font-family: "Nunito-Bold";
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Rocksalt-Regular";
+    src: url("../fonts/RockSalt-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Nunito-Black";
+    src: url("../fonts/Nunito-Black.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Nunito-Bold";
+}
+
+body{
+    width: 414px;
+    height: 2108px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px;
+}
+
+header{
+    width: 100%;
+    height: 625px;
+    background-image: url("../img/maindog.jpg");
+    background-size: cover;
+    padding: 16px;
+}
+
+header h1{
+    margin-bottom: 16px;
+    font-family: "Rocksalt-Regular";
+}
+header p{
+    text-align: end;
+    font-size: 1.6rem;
+    color: #DF8480;
+}
+
+.sexyred{
+    height: 70px;
+    font-size: 1.6rem;
+    background-color: #DF8480;
+    color: white;
+    padding: 24px;
+}
+
+.one23{
+    padding: 16px;
+}
+
+.uno, .dos{
+    height: 135px;
+}
+
+.tres{
+    height: 173px;
+}
+
+.biggie{
+    font-family: "Nunito-Black";
+    font-size: 4.8rem;
+    color: #DF8480;
+    margin-bottom: 16px;
+}
+
+.smalls{
+    font-size: 1.6rem;
+}
+
+.littledog{
+    height: 141px;
+    background-image: url("../img/littledog.jpg");
+    background-size: 103%;
+    background-position: center;
+}
+
+.cereal{
+    height: 250px;
+    font-size: 1.6rem;
+    background-image: url("../img/cereal.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 32px 71px;
+}
+
+.cereal article{
+    width: 272px;
+    height: 186px;
+}
+
+.loc{
+    text-align: start;
+    margin-bottom: 58px;
+}
+
+.del{
+    text-align: end;
+    margin-bottom: 58px;
+}
+
+.org{
+    text-align: start;
+    margin-left: 30px;
+}
+
+.ourchefs, .black{
+    font-size: 1.6rem;
+    padding: 16px 16px 32px 16px;
+}
+
+.black{
+    color: white;
+    background-color: black;
+    height: 395px;
+}
+
+.signup{
+    margin: 0 36.5px 16px 36.5px;
+}
+
+a{
+    width: 382px;
+    height: 54px;
+    text-align: center;
+    display: block;
+    padding: 16px 0;
+    border-radius: 30px;
+}
+
+.email{
+    background-color: white;
+    color: #7B7B7B;
+    margin-bottom: 16px;
+}
+
+.sign{
+    background-color: #DF8480;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+@media screen and 
+(min-width: 600px)
+{
+    body{
+        width: 600px;
+        height: 1771px;
+    }
+
+    .one23{
+        display: flex;
+        padding: 16px 60px;
+        align-items: baseline;
+        text-align: left;
+    }
+
+    .uno, dos{
+        height: 97px;
+    }
+
+    .tres{
+        align-items: center;
+    }
+
+    .tres{
+        height: 113px;
+    }
+
+    .biggie{
+        margin-right: 16px;
+    }
+
+    .smalls{
+        justify-content: center;
+    }
+
+    .dogfood{
+        display: flex;
+    }
+
+    .littledog{
+        width: 50%;
+        height: 250px;
+    }
+
+    .cereal{
+        padding: 32px 14px;
+    }
+
+    .icons img{
+        margin-right: 24px;
+    }
+
+    .black{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .black a{
+        width: 380px;
+    }
+
+    .signup{
+        width: 341px;
+    }
+    
+    .end{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+}
+
+@media screen and 
+(min-width: 900px)
+{
+    body{
+        width: 900px;
+        height: 1682px;
+    }
+    header{
+        padding: 0;
+        height: 609px;
+        background-size: 450px 504px;
+        background-repeat: no-repeat;
+        background-position: bottom right; 
+        background-color: #DF8480; 
+    }
+
+    header h1{
+        height: 105px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        background-color: white;
+    }
+
+    header p{
+        font-size: 3.6rem;
+        width: 187px;
+        margin-left: 239px;
+        color: white;
+    }
+    
+    .sexyred{
+        color: #DF8480;
+        background-color: white;
+        font-size: 4.8rem;
+        height: 113px;
+    }
+
+    .big3{
+        display: flex;
+        margin-left: 100px;
+        height: 208px;
+    }
+    .one23{
+        width: 217.33px;
+        height: 201px;
+        flex-direction: column;
+        padding: 16px 24px;
+        text-align: center;
+        align-items: center;
+        margin-right: 24px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .biggie{
+        margin-bottom: 16px;
+    }
+
+    .littledog, .cereal, .ourchefs{
+        width: 246.67px;
+        height: 250px;
+    }
+
+    .littledog, .cereal{
+        margin-right: 64px;
+    }
+    
+    .why{
+        display: flex;
+        padding: 16px;
+    }
+
+    .littledog{
+        background-size: cover;
+    }
+
+    .ourchefs{
+        display: flex;
+        align-items: center;
+    }
+
+    .black{
+        height: 357px;
+    }
+}
+
+@media screen and 
+(min-width: 1200px)
+{
+    body{
+        width: 1200px;
+    }
+
+    header{
+        background-size: 600px 504px;
+        background-image: url(../img/bigdog.jpg);
+    }
+
+    header p{
+        margin-left: 389px;
+    }
+
+    .big3, .why{
+        justify-content: center;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+
+    .why{
+        margin-left: 100px;
+    }
+
+    .one23{
+        width: 317.33px;
+    }
+
+    .littledog, .cereal, .ourchefs{
+        width: 280px;
+    }
+}
+
+
+
